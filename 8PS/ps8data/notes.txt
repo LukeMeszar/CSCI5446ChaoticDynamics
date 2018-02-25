@@ -1,0 +1,1 @@
+./mutual ~/Dropbox/CSCI_5446/8PS/ps8data/data2.first250sec -D 150 -o ~/Dropbox/CSCI_5446/8PS/ps8data/problem4b

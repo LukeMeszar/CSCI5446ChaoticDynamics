@@ -1,0 +1,48 @@
+theta0 = 0.5
+omega0 = 0.1
+xt0 = [theta0,omega0]
+rk4(0,0.005, 800, xt0, f)
+theta0 = 0.5+2*np.pi
+omega0 = 0.1
+xt0 = [theta0,omega0]
+rk4(0,0.005, 800, xt0, f)
+theta0 = 0.5-2*np.pi
+omega0 = 0.1
+xt0 = [theta0,omega0]
+rk4(0,0.005, 800, xt0, f)
+theta0 = 1.5
+omega0 = 0.1
+xt0 = [theta0,omega0]
+rk4(0,0.005, 800, xt0, f)
+theta0 = 1.5+2*np.pi
+omega0 = 0.1
+xt0 = [theta0,omega0]
+rk4(0,0.005, 800, xt0, f)
+theta0 = 1.5-2*np.pi
+omega0 = 0.1
+xt0 = [theta0,omega0]
+rk4(0,0.005, 800, xt0, f)
+theta0 = -3*np.pi
+omega0 = 0.1
+xt0 = [theta0,omega0]
+rk4(0,0.005, 800, xt0, f)
+theta0 = 3*np.pi
+omega0 = -0.1
+xt0 = [theta0,omega0]
+rk4(0,0.005, 800, xt0, f)
+theta0 = 3*np.pi
+omega0 = -10
+xt0 = [theta0,omega0]
+rk4(0,0.005, 250, xt0, f)
+theta0 = 3*np.pi
+omega0 = -20
+xt0 = [theta0,omega0]
+rk4(0,0.005, 160, xt0, f)
+theta0 = -3*np.pi
+omega0 = 10
+xt0 = [theta0,omega0]
+rk4(0,0.005, 250, xt0, f)
+theta0 = -3*np.pi
+omega0 = 20
+xt0 = [theta0,omega0]
+rk4(0,0.005, 160, xt0, f)
